@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-import pickle
 import pandas as pd
+import pickle
 app = Flask(__name__)
 
 # Load the saved model
